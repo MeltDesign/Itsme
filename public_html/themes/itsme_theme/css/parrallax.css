@@ -1,0 +1,19 @@
+
+/*--parallax--*/
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	background: url(../images/dividerserv.png) no-repeat top center;
+	height:auto;
+	position: relative;
+	padding: 80px 0 30px 0;
+}
+
+
+
+/* Slide 2 */ 
+
+#slide2{
+	background-image: url(../images/service-parrallax.jpg);
+	background-color:#f68f67;
+}

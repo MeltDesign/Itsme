@@ -1,0 +1,167 @@
+@import url('css/AtMedia.css');
+@import url('css/slider.css');
+/* use at import above to include other elements - NOTHING comes before it*/
+/* NO @ MEDIA on this sheet */ 
+
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  cursor: default; }
+
+/*change this to increase page width do not remove---*/
+  .row{max-width: 1024px;}
+  
+  .rowFull{ max-width: 100%;}
+
+/*-------typography--------*/
+
+/* Typography resets shouldn't need to be changed*/
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,
+h5,h6,pre,form,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+  direction: ltr; }
+    
+ 
+ 
+.Logo{ 
+	background-color: #000;
+	margin-left: -125px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	width: 250px;
+	height: 300px;
+	visibility: visible }
+
+header.introHeader h1{ padding: 100px 0 0 0; text-align: right; }
+
+.projectLink{display: block; float: right;}
+.overLayNav{display: block; float: right; background: #0B7CE5;}
+
+
+/* Default Link Styles */
+a {
+  color: #2ba6cb;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #2795b6; }
+  a img {
+    border: none; }
+
+/* Default paragraph styles */
+p {
+  font-family: inherit;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility; }
+  p aside {
+    font-size: 0.875rem;
+    line-height: 1.35;
+    font-style: italic; }
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #222222;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+
+h1 sgrid, h2 sgrid, h3 sgrid, h4 sgrid, h5 sgrid, h6 sgrid {
+    font-size: 60%; color: #6f6f6f; line-height: 0; }
+	
+	
+	/* other Typography Defaults */
+em, i { font-style: italic; line-height: inherit; }
+
+strong, b { font-weight: bold; line-height: inherit; }
+
+sgrid { font-size: 60%; line-height: inherit; }
+	
+		
+section{width: 100%; padding: 20px 0;}
+.introDownLoad{ background: #f2f2f2;}
+.headerSlide{ background: #EFCC65; padding: 30px 0 0 0; }
+.services{background: url(images/dividerserv.png) no-repeat center top; color: #fff; }
+section.intro{ background: #fff; }
+section.work{ background: #fff; min-height: 300px; }
+section.contact{ background: #ccc; min-height: 300px; }
+section.footerRow{background: #EFCC65;}
+
+.servicesHeader{min-height: 300px;}
+
+.centered{ text-align: center;}
+
+.services a.servButton{ background: #05A8E3; color: #fff;}
+.services .grid-4{ text-align: center;}	
+ 
+.services h2{color: #fff; border-bottom: dotted 3px #ccc;}
+ 
+img.servIcon{float: left; } 
+  
+.downloadWrap{ background: #fff; padding: 15px;}
+.downloadWrapHold{ background: #333;}
+
+.nopadLeft{ padding-left: 0!important;}
+
+.social{}
+.social a{ width: 35px; height: 35px; background: #ccc; display: block; float: right; margin: 0 0 0 5px;
+background: url(images/social-icons.png) no-repeat;}
+.social a.twittLink{ background-position: 0 0px;}
+.social a.twittLink:hover{ background-position: 0 -35px;}
+.social a.fbLink{ background-position: -35px 0px;}
+.social a.fbLink:hover{ background-position: -35px -35px;}
+.social a.inLink{ background-position: -70px 0px;}
+.social a.inLink:hover{ background-position: -70px -35px;}
+.social a.youLink{ background-position: -105px 0px;}
+.social a.youLink:hover{ background-position: -105px -35px;}
+
+/*--parallax--*/
+  
+  /* General Slides */ 
+
+.parallax{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding:140px 0;
+}
+
+
+/* Slide 2 */ 
+
+#parallaxHold{
+	background-image:url(../images/footprints.png);
+	color:#ffffff;
+	min-height: 500px;
+}
+
+#slide2{ background: url(images/service-parrallax.jpg)}
+
+
+#slide2 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide2 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
